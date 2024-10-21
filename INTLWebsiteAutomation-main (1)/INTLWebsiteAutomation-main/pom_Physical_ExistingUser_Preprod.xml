@@ -1,0 +1,214 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.test.maven</groupId>
+	<artifactId>sample-maven-build</artifactId>
+	<version>1</version>
+	<name>sample-maven-build</name>
+	<build>
+		<!-- Source directory configuration -->
+		<sourceDirectory>src</sourceDirectory>
+		<plugins>
+			<!-- Following plugin executes the testng tests -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.4</version>
+				<configuration>
+
+					<!-- Suite testng xml file to consider for test execution -->
+					<suiteXmlFiles>
+						<suiteXmlFile>INTL_Physical_ExistingUser_Preprod.xml</suiteXmlFile>
+					</suiteXmlFiles>
+
+				</configuration>
+			</plugin>
+			<!-- Compiler plugin configures the java version to be usedfor compiling 
+				the code -->
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.2</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+					<fork>true</fork>
+					<encoding>Cp1252</encoding> 
+					<!-- <executable>C:\Program Files\Java\jdk1.8.0_73\bin\javac.exe</executable> -->
+				</configuration>
+			</plugin>
+
+		</plugins>
+	</build>
+	<dependencies>
+
+		<!-- <dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.4.0</version>
+		</dependency> -->
+<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>6.11</version>
+    
+</dependency>
+
+		<dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>3.14.0</version>
+            <!-- <version>3.141.59</version> -->
+        </dependency> 
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-server</artifactId>
+            <version>3.14.0</version>
+           <!--  <version>3.141.59</version> -->
+        </dependency>
+
+		<dependency>
+			<groupId>org.atu</groupId>
+			<artifactId>ATUReporter_Selenium_testNG</artifactId>
+			<version>5.1.1</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/Lib/ATUReporter_Selenium_testNG_5.1.1.jar</systemPath>
+		</dependency>
+
+		<dependency>
+			<groupId>org.atu</groupId>
+			<artifactId>ATUTestRecorder</artifactId>
+			<version>2.1</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/Lib/ATUTestRecorder_2.1.jar</systemPath>
+		</dependency>
+<dependency>
+			<groupId>com.newdemo.framework.base</groupId>
+			<artifactId>MHEFrameworkJar</artifactId>
+			<version>2.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/Lib/mheframework_kumaran.jar</systemPath>
+		</dependency>
+		
+			
+		
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>3.9</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>3.10.1</version>
+			<exclusions>
+				<exclusion>
+					<artifactId>xml-apis</artifactId>
+					<groupId>xml-apis</groupId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+
+		<dependency>
+			<groupId>org.sikuli</groupId>
+			<artifactId>sikuli-api</artifactId>
+			<version>1.2.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/Lib/sikuli-api-1.2.0.jar</systemPath>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.sikulix/sikulixapi -->
+		<dependency>
+			<groupId>com.sikulix</groupId>
+			<artifactId>sikulixapi</artifactId>
+			<version>1.1.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/Lib/sikulixapi-1.1.0.jar</systemPath>
+		</dependency>
+
+		<dependency>
+			<groupId>io.appium</groupId>
+			<artifactId>java-client</artifactId>
+			<version>2.0.0</version>
+		</dependency>
+
+		<!-- Accessibility dependencies START -->
+		<dependency>
+			<groupId>com.google.inject</groupId>
+			<artifactId>guice</artifactId>
+			<scope>provided</scope>
+			<version>3.0</version>
+		</dependency>
+		<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-guice</artifactId>
+			<version>1.1.5</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.jsoup</groupId>
+			<artifactId>jsoup</artifactId>
+			<version>1.7.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.hamcrest</groupId>
+			<artifactId>hamcrest-all</artifactId>
+			<version>1.3</version>
+			<scope>test</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/log4j/log4j -->
+		
+		<dependency>
+		    <groupId>org.apache.logging.log4j</groupId>
+		    <artifactId>log4j-core</artifactId>
+		    <version>2.17.0</version>
+		</dependency>
+
+
+		<!-- Accessibility dependencies END -->
+
+		<!-- NGWEBDRIVER Protractor dependencies START -->
+		<!-- https://mvnrepository.com/artifact/com.paulhammant/ngwebdriver -->
+		<dependency>
+			<groupId>com.paulhammant</groupId>
+			<artifactId>ngwebdriver</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<!-- NGWEBDRIVER Protractor dependencies END -->
+
+		<!-- https://mvnrepository.com/artifact/org.json/json -->
+
+		<!-- AXE ACCESSIBILITY DEPENDENCIES START -->
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20170516</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.4</version>
+		</dependency>
+		<!-- AXE ACCESSIBILITY DEPENDENCIES END -->
+
+		<!-- REST ASSURED POST MESSAGE AND VERIFY -->
+		<dependency>
+			<groupId>com.jayway.restassured</groupId>
+			<artifactId>rest-assured</artifactId>
+			<version>2.6.0</version>
+		</dependency>
+		<!-- REST ASSURED POST MESSAGE AND VERIFY -->
+		<!-- MAIL ATTACHMENT DEPENDENCIES -->
+		<dependency>
+			<groupId>javax.mail</groupId>
+			<artifactId>mail</artifactId>
+			<version>1.4</version>
+		</dependency>
+		<!-- MAIL ATTACHMENT DEPENDENCIES -->
+	</dependencies>
+</project>

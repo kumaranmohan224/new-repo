@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="EZTClassicPart1_QALive" verbose="3" parallel="false" thread-count="0">
+	<parameter name="browser" value="chrome" />
+	<parameter name="mode" value="chrome" />		
+	<parameter name="platform" value="windows" />
+	<parameter name="inputsheet" value="Datasheet_QALive.xls"/>
+	<parameter name="remoteurl" value=""/>
+	<parameter name="htmlmodulename" value="GTSWEB"/>
+	<parameter name="desiredcapabilities" value=""/>
+	
+	<test name="CanadaAccessibility" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>63"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.CanadaAccessibility"/>
+		</classes>
+	</test>
+	
+	<!-- <test name="ItalyAccessibility" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>64"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.ItalyAccessibility"/>
+		</classes>
+	</test> 
+	
+	<test name="AUSAccessibility" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>65"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.AUSAccessibility"/>
+		</classes>
+	</test>
+	
+	<test name="LATAMAccessibility" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>66"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.LATAMAccessibility"/>
+		</classes>
+	</test> 
+	
+	<test name="ASIAAccessibility" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>67"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.ASIAAccessibility"/>
+		</classes>
+	</test> 
+	
+	<test name="EMEAAccessibility" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>68"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.EMEAAccessibility"/>
+		</classes>
+	</test>
+	
+	<test name="ColAccessibility" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>69"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.ColAccessibility"/>
+		</classes>
+	</test>  
+	
+	  <test name="ChileAccessibility" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>70"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.ChileAccessibility"/>
+		</classes>
+	</test>    
+	
+	 <test name="IndiaAccessibility" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>71"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.IndiaAccessibility"/>
+		</classes>
+	</test> 
+	
+	 <test name="SpainAccessibility" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>72"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.SpainAccessibility"/>
+		</classes>
+	</test> 
+	
+	 <test name="ProAccessibility" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>73"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.ProAccessibility"/>
+		</classes>
+	</test>  
+	
+	 <test name="MEAAccessibility" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>74"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.MEAAccessibility"/>
+		</classes>
+	</test> 
+	 -->
+	
+ 	<listeners>
+	  <listener class-name="atu.testng.reports.listeners.ATUReportsListener"></listener>
+	  <listener class-name="atu.testng.reports.listeners.ConfigurationListener"></listener>
+	  <listener class-name="atu.testng.reports.listeners.MethodListener"></listener>
+  	</listeners>	
+ 		 		
+</suite>

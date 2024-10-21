@@ -1,0 +1,285 @@
+[1107/055934:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1107/060101:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1107/060440:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1107/063423:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1107/063640:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1107/064015:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1107/064608:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1107/065511:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1107/065950:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1107/070218:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1107/070424:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1107/070544:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1107/070903:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1107/071356:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1107/073210:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1108/021229:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1108/022116:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1108/022737:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1108/023811:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1108/024941:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1108/060016:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1108/061530:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1108/105127:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1109/052737:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1115/054346:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1115/084120:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1115/091421:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1115/092344:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1124/060435:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1124/064213:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1124/092750:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1124/093407:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1124/094538:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1124/102626:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1124/103106:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1129/050909:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1129/053333:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1129/053534:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1129/054038:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1129/063525:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1129/064420:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1129/064800:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1129/074944:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1129/075734:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1129/080426:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1129/080710:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1129/082217:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1129/082444:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1129/090049:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1129/110242:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1207/024900:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1207/025657:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1207/025912:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1207/053754:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1208/233316:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1209/021856:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1209/022252:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1209/022600:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1209/025600:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1209/051043:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1209/051317:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1209/051626:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1209/052551:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1209/075229:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1209/075545:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1209/075836:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1213/234617:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1214/015454:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1214/020830:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1214/023855:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1214/055051:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1214/055455:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1215/054653:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1215/055709:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1215/065023:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[1215/065248:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0104/053222:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0104/083510:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0104/083911:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0104/084305:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0104/084647:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0104/085729:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0105/005247:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0127/004834:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0127/004925:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0127/010243:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0127/010833:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0127/011434:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0127/011918:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0127/012640:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0127/013908:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0127/014436:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0127/014731:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0127/083700:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0127/084002:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0127/084328:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0127/084921:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0127/085149:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0127/085647:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0130/025730:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0130/030125:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0130/030942:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0130/031459:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0130/065032:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0130/091541:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0130/093811:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0130/094239:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0130/100301:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0131/025458:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0131/031717:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0131/050822:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0131/053431:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0131/054645:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0131/060358:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0131/060634:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0131/061822:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0131/062729:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0131/065815:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0131/070413:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0131/070811:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0131/072739:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0131/073927:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0131/074524:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0131/090615:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0131/090828:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0131/091327:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0131/105009:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0131/105755:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0131/111202:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0131/111527:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0131/111714:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0131/112022:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0201/063449:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0201/063726:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0201/065325:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0201/065604:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0201/075749:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0201/081819:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0201/082322:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0201/093554:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0201/093836:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0201/094528:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0201/095805:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0201/100815:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0201/101047:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0201/103126:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0201/105512:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0201/105957:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0201/111006:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0202/045005:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0202/113846:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0202/115340:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0203/053113.165:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0203/060814.160:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0203/062602.157:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0203/065407.469:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0203/071443.945:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0203/072310.419:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0203/073836.582:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0203/075054.546:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0203/075525.533:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0203/080132.636:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0203/080605.851:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0203/080843.119:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0203/081116.149:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0203/081707.877:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0203/082135.950:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0203/085322.991:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0203/091632.237:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0203/092138.879:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0203/092359.299:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0203/092614.615:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0203/093021.187:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0203/162726.971:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0206/031713.267:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0206/034229.758:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0206/034532.711:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0206/034922.077:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0206/050740.129:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0206/051450.652:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0206/055621.598:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0206/060656.481:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0206/061253.656:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0206/065606.200:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0206/073253.083:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0206/073830.214:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0206/082713.620:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0206/082836.447:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0206/084610.452:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0206/084834.947:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0206/085318.897:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0206/094006.035:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0206/100239.170:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0206/100308.349:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0206/101358.680:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0206/101745.537:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0206/112941.021:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0206/113908.673:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0206/114038.601:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0206/114741.961:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0206/115148.909:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0206/122721.797:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0206/130107.821:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0207/025718.793:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0207/025752.846:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0207/030340.754:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0207/031452.525:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0207/063552.806:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0207/070035.791:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0207/073718.366:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0208/024158.196:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0208/031614.101:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0208/032038.461:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0208/033440.968:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0208/051207.755:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0210/043356.870:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0210/043836.805:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0210/063449.853:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0213/061654.164:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0213/061828.283:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0213/064756.483:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0213/072229.341:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0213/072935.407:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0213/081019.078:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0223/063422.556:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0224/012629.066:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0224/014007.006:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0224/020312.453:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0224/023240.787:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0224/023628.987:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0224/024437.519:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0306/075348.168:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0306/082632.585:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0306/083356.036:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0306/091724.551:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0306/155858.217:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0306/185246.206:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0306/192111.599:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0307/045739.889:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0307/114133.876:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0307/120220.867:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0307/121440.645:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0308/015453.834:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0308/023240.822:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0308/031026.650:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0308/031759.300:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0309/064726.631:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0309/065642.781:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0309/065822.483:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0309/070517.804:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0309/075234.499:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0309/075312.881:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0310/004940.170:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0310/015150.143:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0311/133116.228:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0311/151653.592:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0311/160532.773:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0316/061716.265:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0316/071611.824:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0331/100818.295:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0404/061823.492:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0417/063420.875:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0418/075637.148:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0418/102447.122:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0727/190844.208:ERROR:scoped_process_suspend.cc(30)] NtSuspendProcess: An attempt was made to access an exiting process.  (0xc000010a)
+[0727/190844.524:ERROR:process_info.cc(116)] ReadProcessMemory bool __cdecl crashpad::`anonymous-namespace'::ReadStruct<struct crashpad::process_types::PEB<struct crashpad::process_types::internal::Traits32>>(void *,unsigned __int64,struct crashpad::process_types::PEB<struct crashpad::process_types::internal::Traits32> *): Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0727/190844.646:ERROR:process_info.cc(559)] ReadProcessData failed
+[0727/190844.646:ERROR:process_reader_win.cc(233)] ReadMemory at 0x6ef87dc8 of 12 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0727/190844.646:WARNING:process_snapshot_win.cc(68)] ReadMemory ExceptionInformation failed
+[0727/190844.646:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::Initialize failed
+[0914/203110.225:ERROR:process_info.cc(625)] range at 0xfffde000, size 0x230 fully unreadable
+[0914/203110.285:ERROR:process_info.cc(625)] range at 0xfffdd000, size 0xf84 fully unreadable
+[0914/203111.288:ERROR:process_reader_win.cc(233)] ReadMemory at 0x413000 of 53248 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0914/203111.362:ERROR:crash_report_exception_handler.cc(111)] WriteEverything failed
+[0914/203111.364:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess: An attempt was made to access an exiting process.  (0xc000010a)
+[1030/125321.000:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights.  (0xc0000022)
+[1030/125321.011:ERROR:exception_snapshot_win.cc(87)] thread ID 9504 not found in process
+[1030/125321.011:WARNING:crash_report_exception_handler.cc(62)] ProcessSnapshotWin::Initialize failed
+[1030/141822.161:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights.  (0xc0000022)
+[1030/141822.201:ERROR:exception_snapshot_win.cc(87)] thread ID 11940 not found in process
+[1030/141822.201:WARNING:crash_report_exception_handler.cc(62)] ProcessSnapshotWin::Initialize failed
+[1015/150316.524:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1015/151927.733:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1028/053307.944:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1028/112842.253:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)

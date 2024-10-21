@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="EZTClassicPart1_QALive" verbose="3" parallel="false" thread-count="0">
+	<parameter name="browser" value="chrome" />
+	<parameter name="mode" value="browserstack" />		
+	<parameter name="platform" value="windows" />
+	<parameter name="configFile" value="Config/CONFIG.properties"/>
+	<parameter name="inputsheet" value="Datasheet_QALive.xls"/>
+	<parameter name="remoteurl" value="http://kumaranmohan_ML4oQc:tw4QfGsm8KopchKzsDXR@hub-cloud.browserstack.com/wd/hub"/>
+	<parameter name="htmlmodulename" value="GTSWEB"/>
+	<parameter name="desiredcapabilities" value="browser=>Chrome;browser_version=>115;os=>Windows;os_version=>11;resolution=>1280x800;UnexpectedAlertBehaviour=>IGNORE"/>
+	
+	
+	<test name="DBTest_PreProd_INTL_Redirectional" preserveorder="true">
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.DBTest_PreProd_INTL_Redirectional"/>
+		</classes>
+	</test>  
+	
+	
+ 	<listeners>
+	  <listener class-name="atu.testng.reports.listeners.ATUReportsListener"></listener>
+	  <listener class-name="atu.testng.reports.listeners.ConfigurationListener"></listener>
+	  <listener class-name="atu.testng.reports.listeners.MethodListener"></listener>
+  	</listeners>	
+ 		 		
+</suite>

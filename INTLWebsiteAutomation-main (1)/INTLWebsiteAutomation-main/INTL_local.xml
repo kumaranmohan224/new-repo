@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="EZTClassicPart1_QALive" verbose="3" parallel="false" thread-count="0">
+	<parameter name="browser" value="chrome" />
+	<parameter name="mode" value="chrome" />		
+	<parameter name="platform" value="windows" />
+	<parameter name="inputsheet" value="Datasheet_QALive.xls"/>
+	<parameter name="remoteurl" value=""/>
+	<parameter name="htmlmodulename" value="GTSWEB"/>
+	<parameter name="desiredcapabilities" value=""/>
+	
+	<!-- <test name="LATAMPhysicalCheckOut_Prod" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>5"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.LATAMPhysicalCheckOut_Prod"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="LATAMPhysicalCheckOutUsingExistingUser_Prod" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>5"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.LATAMPhysicalCheckOutUsingExistingUser_Prod"/>
+		</classes>
+	</test> --> 
+	
+	<!-- <test name="LATAMDigitalCheckOutUsingExistingUser_Prod" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>4"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.LATAMDigitalCheckOutUsingExistingUser_Prod"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="LATAMDigitalCheckOut_Prod" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>4"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.LATAMDigitalCheckOut_Prod"/>
+		</classes>
+	</test> --> 
+	
+	<!-- <test name="LATAMPhysicalCheckOut" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>3"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.LATAMPhysicalCheckOut"/>
+		</classes>
+	</test> --> 
+	
+	<!-- <test name="LATAMDigitalCheckOut" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>2"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.LATAMDigitalCheckOut"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="LATAMPhysicalCheckOutUsingExistingUser" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>3"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.LATAMPhysicalCheckOutUsingExistingUser"/>
+		</classes>
+	</test> -->  
+	
+	  <!-- <test name="LATAMDigitalCheckOutUsingExistingUser" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>2"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.LATAMDigitalCheckOutUsingExistingUser"/>
+		</classes>
+	</test> -->    
+	
+	<!--  <test name="EMEADigitalCheckOut" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>6"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.EMEADigitalCheckOut"/>
+		</classes>
+	</test> --> 
+	
+	 <!-- <test name="EMEAPhysicalCheckOut" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>7"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.EMEAPhysicalCheckOut"/>
+		</classes>
+	</test> --> 
+	
+	 <!-- <test name="CanadaDigitalCheckOut" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>8"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.CanadaDigitalCheckOut"/>
+		</classes>
+	</test> -->  
+	
+	<!--  <test name="CanadaPhysicalCheckOut" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>9"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.CanadaPhysicalCheckOut"/>
+		</classes>
+	</test> --> 
+	
+	<!-- <test name="ProfessionalPhysicalCheckOut" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>10"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.ProfessionalPhysicalCheckOut"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="ProfessionalPhysicalCheckOutUsingExistingUser" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>10"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.ProfessionalPhysicalCheckOutUsingExistingUser"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="CanadaDigitalCheckOutUsingExistingUser" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>8"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.CanadaDigitalCheckOutUsingExistingUser"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="CanadaPhysicalCheckOutUsingExistingUser" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>9"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.CanadaPhysicalCheckOutUsingExistingUser"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="EMEADigitalCheckOutUsingExistingUser" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>6"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.EMEADigitalCheckOutUsingExistingUser"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="EMEAPhysicalCheckOutUsingExistingUser" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>7"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.EMEAPhysicalCheckOutUsingExistingUser"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="SpainDigitalCheckOutUsingExistingUser" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>11"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.SpainDigitalCheckOutUsingExistingUser"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="SpainPhysicalCheckOutUsingExistingUser" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>12"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.SpainPhysicalCheckOutUsingExistingUser"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="AUSDigitalCheckOut" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>13"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.AUSDigitalCheckOut"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="ProfessionalPhysicalCheckOut_Prod" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>26"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.ProfessionalPhysicalCheckOut_Prod"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="AUSDigitalCheckOutUsingExistingUser" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>13"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.AUSDigitalCheckOutUsingExistingUser"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="AUSPhysicalCheckOut" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>14"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.AUSPhysicalCheckOut"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="AUSPhysicalCheckOutUsingExistingUser" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>14"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.AUSPhysicalCheckOutUsingExistingUser"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="ASIADigitalCheckOut" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>15"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.ASIADigitalCheckOut"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="ASIAPhysicalCheckOut" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>16"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.ASIAPhysicalCheckOut"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="ASIAPhysicalCheckOutUsingExistingUser" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>16"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.ASIAPhysicalCheckOutUsingExistingUser"/>
+		</classes>
+	</test> -->
+		
+	<!-- <test name="ASIADigitalCheckOutUsingExistingUser" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>15"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.ASIADigitalCheckOutUsingExistingUser"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="ColPhysicalCheckOut" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>18"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.ColPhysicalCheckOut"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="ColDigitalCheckOut" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>17"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.ColDigitalCheckOut"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="ColPhysicalCheckOutUsingExistingUser" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>18"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.ColPhysicalCheckOutUsingExistingUser"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="ColDigitalCheckOutUsingExistingUser" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>17"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.ColDigitalCheckOutUsingExistingUser"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="ChileTest" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>19"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.ChileTest"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="ItalyTest" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>20"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.ItalyTest"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="IndiaTest" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>21"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.IndiaTest"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="EMEAPhysicalCheckOut_Prod" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>23"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.EMEAPhysicalCheckOut_Prod"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="EMEAPhysicalCheckOutUsingExistingUser_Prod" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>23"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.EMEAPhysicalCheckOutUsingExistingUser_Prod"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="EMEADigitalCheckOut_Prod" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>22"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.EMEADigitalCheckOut_Prod"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="EMEADigitalCheckOutUsingExistingUser_Prod" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>22"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.EMEADigitalCheckOutUsingExistingUser_Prod"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="CanadaDigitalCheckOut_Prod" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>24"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.CanadaDigitalCheckOut_Prod"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="CanadaPhysicalCheckOut_Prod" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>25"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.CanadaPhysicalCheckOut_Prod"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="CanadaDigitalCheckOutUsingExistingUser_Prod" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>24"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.CanadaDigitalCheckOutUsingExistingUser_Prod"/>
+		</classes>
+	</test> -->
+		
+	<!-- <test name="CanadaPhysicalCheckOutUsingExistingUser_Prod" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>25"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.CanadaPhysicalCheckOutUsingExistingUser_Prod"/>
+		</classes>
+	</test> -->	
+	
+	<!-- <test name="ASIAPhysicalCheckOut_Prod" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>28"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.ASIAPhysicalCheckOut_Prod"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="ASIAPhysicalCheckOutUsingExistingUser_Prod" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>28"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.ASIAPhysicalCheckOutUsingExistingUser_Prod"/>
+		</classes>
+	</test> -->
+	
+	<!--  <test name="ASIADigitalCheckOut_Prod" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>27"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.ASIADigitalCheckOut_Prod"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="ASIADigitalCheckOutUsingExistingUser_Prod" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>27"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.ASIADigitalCheckOutUsingExistingUser_Prod"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="ProfessionalPhysicalCheckOutUsingExistingUser_Prod" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>26"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.ProfessionalPhysicalCheckOutUsingExistingUser_Prod"/>
+		</classes>
+	</test> -->
+		
+	<!-- <test name="AUSPhysicalCheckOut_Prod" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>30"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.AUSPhysicalCheckOut_Prod"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="AUSPhysicalCheckOutUsingExistingUser_Prod" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>30"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.AUSPhysicalCheckOutUsingExistingUser_Prod"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="AUSDigitalCheckOut_Prod" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>29"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.AUSDigitalCheckOut_Prod"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="AUSDigitalCheckOutUsingExistingUser_Prod" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>29"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.AUSDigitalCheckOutUsingExistingUser_Prod"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="ColDigitalCheckOut_Prod" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>31"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.ColDigitalCheckOut_Prod"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="ColDigitalCheckOutUsingExistingUser_Prod" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>31"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.ColDigitalCheckOutUsingExistingUser_Prod"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="ColPhysicalCheckOut_Prod" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>32"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.ColPhysicalCheckOut_Prod"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="ColPhysicalCheckOutUsingExistingUser_Prod" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>32"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.ColPhysicalCheckOutUsingExistingUser_Prod"/>
+		</classes>
+	</test> -->
+		
+	<!-- <test name="SpainDigitalCheckOutUsingExistingUser_Prod" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>33"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.SpainDigitalCheckOutUsingExistingUser_Prod"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="SpainPhysicalCheckOutUsingExistingUser_Prod" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>33"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.SpainPhysicalCheckOutUsingExistingUser_Prod"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="ItalyTest_Prod" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>36"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.ItalyTest_Prod"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="IndiaTest_Prod" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>35"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.IndiaTest_Prod"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="MiddleEastTest" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>60"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.MiddleEastTest"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="LATAMDigitalCheckOut" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>38"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.LATAMDigitalCheckOut"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="LATAMPhysicalCheckOut" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>39"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.LATAMPhysicalCheckOut"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="LATAMDigitalCheckOutUsingExistingUser" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>38"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.LATAMDigitalCheckOutUsingExistingUser"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="LATAMPhysicalCheckOutUsingExistingUser" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>39"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.LATAMPhysicalCheckOutUsingExistingUser"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="MiddleEastTest_Prod" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>59"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.MiddleEastTest_Prod"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="DBTest_EnhancedSearchTest" preserveorder="true">
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.DBTest_EnhancedSearchTest"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="DBTest_MonthlyReport" preserveorder="true">
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.DBTest_MonthlyReport"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="DBTest_Prod" preserveorder="true">
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.DBTest_Prod"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="DBTest_Prod_sample" preserveorder="true">
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.DBTest_Prod_sample"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="DBTest_Prod_sample2" preserveorder="true">
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.DBTest_Prod_sample2"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="DBTest_Prod_EVG" preserveorder="true">
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.DBTest_Prod_EVG"/>
+		</classes>
+	</test> -->
+	
+	<test name="DBTest_Prod_EVG_Bundles" preserveorder="true">
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.DBTest_Prod_EVG_Bundles"/>
+		</classes>
+	</test>
+	
+	<!-- <test name="DBTest_ProductCoverValidation" preserveorder="true">
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.DBTest_ProductCoverValidation"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="DBTest_EstoreValidation" preserveorder="true">
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.DBTest_EstoreValidation"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="DBTest_Prod_INTL_Redirectional" preserveorder="true">
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.DBTest_Prod_INTL_Redirectional"/>
+		</classes>
+	</test> -->
+		
+	<!-- <test name="DBTest_PreProd_INTL_Redirectional" preserveorder="true">
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.DBTest_PreProd_INTL_Redirectional"/>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="DBTest_Amazon_Italy_ProductValidation" preserveorder="true">
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.DBTest_Amazon_Italy_ProductValidation"/>
+		</classes>
+	</test> -->
+	
+	
+	
+	 
+	
+	
+	
+	
+	
+	  
+	<!-- <test name="createAssignment" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>2"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.CreateAssignment"/>
+		</classes>
+	</test>
+	
+	<test name="StudentRegistration" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>2"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.StudentRegistration"/>
+		</classes>
+	</test>
+	
+	<test name="TakeAssignment" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>2"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.TakeAssignment"/>
+		</classes>
+	</test>
+	
+	<test name="InstructorGrading" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>2"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.InstructorGrading"/>
+		</classes>
+	</test> -->
+	
+	
+ 	<listeners>
+	  <listener class-name="atu.testng.reports.listeners.ATUReportsListener"></listener>
+	  <listener class-name="atu.testng.reports.listeners.ConfigurationListener"></listener>
+	  <listener class-name="atu.testng.reports.listeners.MethodListener"></listener>
+  	</listeners>	
+ 		 		
+</suite>

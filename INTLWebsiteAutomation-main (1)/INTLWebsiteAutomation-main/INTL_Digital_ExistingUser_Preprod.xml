@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="EZTClassicPart1_QALive" verbose="3" parallel="false" thread-count="0">
+	<parameter name="browser" value="chrome" />
+	<parameter name="mode" value="browserstack" />		
+	<parameter name="platform" value="windows" />
+	<parameter name="configFile" value="Config/CONFIG.properties"/>
+	<parameter name="inputsheet" value="Datasheet_QALive.xls"/>
+	<parameter name="remoteurl" value="http://kumaranmohan_ML4oQc:tw4QfGsm8KopchKzsDXR@hub-cloud.browserstack.com/wd/hub"/>
+	<parameter name="htmlmodulename" value="GTSWEB"/>
+	<parameter name="desiredcapabilities" value="browser=>Chrome;browser_version=>115;os=>Windows;os_version=>11;resolution=>1280x800;UnexpectedAlertBehaviour=>IGNORE"/>
+
+	<test name="LATAMDigitalCheckOutUsingExistingUser" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>2"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.LATAMDigitalCheckOutUsingExistingUser"/>
+		</classes>
+	</test>
+	
+	<test name="EMEADigitalCheckOutUsingExistingUser" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>6"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.EMEADigitalCheckOutUsingExistingUser"/>
+		</classes>
+	</test>
+	
+	<test name="CanadaDigitalCheckOutUsingExistingUser" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>8"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.CanadaDigitalCheckOutUsingExistingUser"/>
+		</classes>
+	</test>
+	
+	<test name="ASIADigitalCheckOutUsingExistingUser" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>15"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.ASIADigitalCheckOutUsingExistingUser"/>
+		</classes>
+	</test>
+	
+	<test name="AUSDigitalCheckOutUsingExistingUser" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>13"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.AUSDigitalCheckOutUsingExistingUser"/>
+		</classes>
+	</test>
+	
+	<test name="ColDigitalCheckOutUsingExistingUser" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>17"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.ColDigitalCheckOutUsingExistingUser"/>
+		</classes>
+	</test>
+	
+	<test name="SpainDigitalCheckOutUsingExistingUser" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>11"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.SpainDigitalCheckOutUsingExistingUser"/>
+		</classes>
+	</test>
+	
+	<test name="SpainPhysicalCheckOutUsingExistingUser" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>12"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.SpainPhysicalCheckOutUsingExistingUser"/>
+		</classes>
+	</test>
+	
+	  
+	
+	
+ 	<listeners>
+	  <listener class-name="atu.testng.reports.listeners.ATUReportsListener"></listener>
+	  <listener class-name="atu.testng.reports.listeners.ConfigurationListener"></listener>
+	  <listener class-name="atu.testng.reports.listeners.MethodListener"></listener>
+  	</listeners>	
+ 		 		
+</suite>

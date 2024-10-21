@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="EZTClassicPart1_QALive" verbose="3" parallel="false" thread-count="0">
+	<parameter name="browser" value="chrome" />
+	<parameter name="mode" value="chrome" />		
+	<parameter name="platform" value="windows" />
+	<parameter name="inputsheet" value="Datasheet_QALive.xls"/>
+	<parameter name="remoteurl" value=""/>
+	<parameter name="htmlmodulename" value="EZTClassicPart1"/>
+	<parameter name="desiredcapabilities" value=""/>
+	
+	
+	<test name="courseManagement" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>2"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.CourseManagement"/>
+		</classes>
+	</test>
+	  
+	<test name="createAssignment" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>2"/>
+		<parameter name="env" value="live"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.CreateAssignment"/>
+		</classes>
+	</test>
+	
+	<test name="StudentRegistration" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>2"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.StudentRegistration"/>
+		</classes>
+	</test>
+	
+	<test name="TakeAssignment" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>2"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.TakeAssignment"/>
+		</classes>
+	</test>
+	
+	<test name="InstructorGrading" preserveorder="true">
+		<parameter name="ParameterNValue" value="InputDataRow=>2"/>
+		<classes>
+			<class name="com.newdemo.test.EZTPart1.InstructorGrading"/>
+		</classes>
+	</test>
+	
+ 	<listeners>
+	  <listener class-name="atu.testng.reports.listeners.ATUReportsListener"></listener>
+	  <listener class-name="atu.testng.reports.listeners.ConfigurationListener"></listener>
+	  <listener class-name="atu.testng.reports.listeners.MethodListener"></listener>
+  	</listeners>	
+ 		 		
+</suite>
